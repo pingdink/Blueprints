@@ -1,0 +1,20 @@
+Get process set up
+Finish frontend user registration on mobile 
+finish UI for desktop
+
+
+Tuesday
+JS backend with form AJAX? calls?
+
+
+So HTML spa sent to client they can look around.
+to register they create username password
+	register 
+		update db
+			account created page generated
+to login
+	first html spa
+		login
+			load user html block and then load user specific data
+Form validation done through button that runs client side JS and the JS communicates with the server. 
+Form submission returns default client page or transition to client page

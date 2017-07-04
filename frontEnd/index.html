@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Blueprints</title>
+	<!--w3css-->
+	<link rel="stylesheet" type="text/css" href="frameworks/w3.css">
+	<link rel="stylesheet" type="text/css" href="Blueprints.css">
+
+
+</head>
+<body>
+	<div class="w3-display-container outMostBox">
+		<div class="w3-container top">
+			<div class="topTwoThird">
+				<div class="w3-container blueprints">
+					<h1 class="w3-jumbo">Blueprints.</h1>
+				</div>
+				<div class="w3-container shareThem">
+					<h1 class="w3-jumbo nameDescription">Share them!</h1>	
+				</div>
+				<div class="w3-container about">
+					<h1 class="w3-jumbo" onclick="displayAbout()">About ></h1>	
+					<h1 id="aboutDescription" style="display: none">Design of a project saves time. Good design creates more of it.
+						Share your designs, templates, practices, stacks, environments,
+						and lets see what we can do. 
+					</h1> 
+				</div>
+			</div>
+			<div class="w3-container login">
+				<h1 class="w3-jumbo" onclick="toggleLogin()">Login ></h1>	
+			</div>
+			<div class="w3-container register" >
+				<h1 class="w3-jumbo" onclick="toggleRegistrationForm()">Register ></h1>
+				<div class="registrationForm" style="display: none" >
+					<div class="w3-container">
+						<!-- onsubmit fires when form submitted -->
+						 <form class="w3-container" action="http://localhost:3000/">
+							<label class="w3-xxxlarge">Username</label>
+							<input class="w3-input w3-xxlarge inputs" type="text" name"username">
+							<label class="w3-xxxlarge">Password</label>
+							<input class="w3-input w3-xxlarge inputs" type="password" name"password">
+							<input class="w3-input w3-xxxlarge inputs registerButton" type="submit" value="Register">
+						
+
+						 </form>
+					</div>			
+				</div>
+			</div>
+
+		</div>
+		<div class="w3-display-bottommiddle">
+			<h1>Copyright ?</h1>
+			
+		</div>
+	</div>
+
+	<!--my js -->
+	<script src="js/about.js"></script>
+	<script src="js/register.js"></script>
+	 <script src="js/login.js"></script> 
+	 <script src="js/processForm.js"></script>
+</body>
+</html>

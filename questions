@@ -1,0 +1,2 @@
+Is it possible to send code to client side and only send the pieces we need back?
+I want to change the view and I don't want to reload the whole page. Can I do do this quickly

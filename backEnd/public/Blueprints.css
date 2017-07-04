@@ -1,0 +1,56 @@
+/* page wide styles */
+/* mobile first styles */
+/* overriding w3-fonts*/
+html, body {
+	height: 100%;
+}
+html, body, h1, h3 {
+	font-family: "Courier New", Monospace;
+	background-color: #1a3d7f;
+	color: #fff;
+	padding: 3%;
+}
+
+/* each class selector below corresponds to html content */
+.blueprints, .about {
+	border-right: 2px solid white;
+	border-bottom: 2px solid white;
+}
+
+.shareThem, .login {
+	border-left: 2px solid white;
+	border-bottom: 2px solid white;
+}
+
+/* register section styling */
+.register {
+	border-right: 2px solid white;
+}
+
+.inputs {
+	background-color: #1a3d7f;
+	color: white;
+	border-bottom: 2px solid white;
+	padding: 2%;
+}
+
+.registerButton {
+	padding-top: 6%;
+}
+
+.outMostBox {
+	height: 100%;
+}
+
+/* form styling */
+.registrationForm {
+	
+
+}
+
+.username {
+	
+}
+
+
+
