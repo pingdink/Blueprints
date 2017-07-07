@@ -4,7 +4,8 @@
 html, body {
 	height: 100%;
 }
-html, body, h1, h3 {
+
+html, body, h1, h2, h3{
 	font-family: "Courier New", Monospace;
 	background-color: #1a3d7f;
 	color: #fff;

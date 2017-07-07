@@ -1,7 +1,10 @@
-// This is the JS that handles the users form. It communicates with node.js
+// Process the form before it gets sent to the werver
+// There is inline html validation as well
 //
-function processForm() {
-
-	console.log(document.getElementsByClassName("w3-container"));
-}
+//document.getElementsByClassName("registerButton")[0].addEventListener("submit", function() {
+//	console.log("hey");
+//	event.preventDefault();	
+//	console.log("heyyey");
+//});
+//
 

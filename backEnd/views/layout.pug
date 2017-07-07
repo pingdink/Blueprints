@@ -1,6 +1,44 @@
 doctype html
-html
+html(lang='en')
 	head
+		meta(charset='UTF-8')
+		meta(name='viewport' content='width=device-width, initial-scale=1')
 		title Blueprints
+		// w3css
+		link(rel='stylesheet', type='text/css', href='/frameworks/w3.css')
+		link(rel='stylesheet', type='text/css', href='/Blueprints.css')
 	body
-		h1 This is where we process the form
+		block content
+//  .w3-display-container.outMostBox
+//    .top
+//      .topTwoThird
+//        .w3-container.blueprints
+//          h1 Blueprints.
+//        .w3-container.shareThem
+//          h2.nameDescription Share them!
+//        .w3-container.about
+//          h2(onclick='displayAbout()') About >
+//          h3#aboutDescription(style='display: none')
+//            | Design of a project saves time. Good design creates more of it.
+//            | Share your designs, templates, practices, stacks, environments,
+//            | and lets see what we can do.
+//      .w3-container.login
+//        h2(onclick='toggleLogin()') Login >
+//      .w3-container.register
+//        h2(onclick='toggleRegistrationForm()') Register >
+//        .registrationForm(style='display: none')
+//          .w3-container
+//            // onsubmit fires when form submitted
+//            form.w3-container(action='/registrationValidation.js')
+//              label.w3-xlarge Username
+//              input.w3-input.w3-large.inputs(type='text')
+//              label.w3-xlarge Password
+//              input.w3-input.w3-large.inputs(type='password')
+//              input.w3-input.w3-xlarge.inputs.registerButton(type='submit', value='Register')
+//    .w3-display-bottommiddle
+//      h3 Copyright ?
+//  // my js
+//  script(src='/js/about.js')
+//  script(src='/js/register.js')
+//  script(src='/js/login.js')
+//  script(src='/js/processForm.js')

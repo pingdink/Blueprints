@@ -1,0 +1,2 @@
+This directory contains the files for managing data between the app and the database. 
+user.js defines the user's Schema ie how the username and password are stored. 
