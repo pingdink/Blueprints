@@ -1,0 +1,2 @@
+This directory contains the views that the express app serves. We specified in our server.js file, 
+is actually the heart of the app, where to find these views by setting a view engine. 
